@@ -8,6 +8,14 @@ This project demonstrates the skills in setting up and executing end-to-end auto
 
 [https://www.saucedemo.com/](https://www.saucedemo.com/)
 
+## Tasks
+
+- [ ] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices.
+- [ ] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others.
+- [ ] **Automated Test Creation**: Write automated test scripts for at least two scenarios.
+- [ ] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed.
+- [ ] **Maintenance**: Write a brief explanation of how you would maintain these tests as the application grows and evolves.
+
 
 ## Submission Guidelines
 
