@@ -10,7 +10,7 @@ This project demonstrates the skills in setting up and executing end-to-end auto
 
 ## Tasks
 
-- [ ] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices.
+- [x] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices.
 - [x] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others.
 - [ ] **Automated Test Creation**: Write automated test scripts for at least two scenarios.
 - [ ] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed.
@@ -20,6 +20,7 @@ This project demonstrates the skills in setting up and executing end-to-end auto
 ## References
 
 - [E2E Tooling Selection Assessment](docs/tool_selection.md)
+- [Shopfront Test Plan Example](docs/test_planning.md)
 
 ## Submission Guidelines
 
