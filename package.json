@@ -1,0 +1,29 @@
+{
+  "name": "shopfront-e2e-exercise",
+  "version": "0.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fsevents": "^2.3.2",
+    "playwright-core": "^1.36.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooniez/shopfront-e2e-exercise.git"
+  },
+  "author": "tooniez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tooniez/shopfront-e2e-exercise/issues"
+  },
+  "homepage": "https://github.com/tooniez/shopfront-e2e-exercise#readme"
+}
