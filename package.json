@@ -19,7 +19,7 @@
     "ci": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=reports/report.xml npx playwright test tests/e2e --reporter=junit",
     "test:record": "npx playwright codegen",
     "test:api": "npx playwright test tests/api/ --reporter=list",
-    "test:e2e": "npx playwright test tests/e2e/ --reporter=list",
+    "test:e2e": "npx playwright test tests/e2e/",
     "test:all": "npx playwright test tests/",
     "show-report": "npx playwright show-report",
     "codespace": "npx playwright test --ui-port=8080 --ui-host=0.0.0.0"
