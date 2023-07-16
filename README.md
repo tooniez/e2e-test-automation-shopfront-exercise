@@ -5,18 +5,14 @@
 
 ## Description
 
-This project demonstrates the skills in setting up and executing end-to-end automated tests for an online shopping web application.
-
-### Application under Test
-
-[https://www.saucedemo.com/](https://www.saucedemo.com/)
+This project demonstrates my ability in setting up and executing end-to-end automated tests for an online shopping web application.
 
 ### Tasks
 
-- [x] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices.
-- [x] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others.
-- [ ] **Automated Test Creation**: Write automated test scripts for at least two scenarios.
-- [x] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed.
+- [x] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices. [#3](https://github.com/tooniez/shopfront-e2e-exercise/issues/3)
+- [x] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others. [#2](https://github.com/tooniez/shopfront-e2e-exercise/issues/2)
+- [x] **Automated Test Creation**: Write automated test scripts for at least two scenarios. 
+- [x] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed. [#11](https://github.com/tooniez/shopfront-e2e-exercise/issues/11)
 - [ ] **Maintenance**: Write a brief explanation of how you would maintain these tests as the application grows and evolves.
 
 ## Project
@@ -27,47 +23,36 @@ A Github public project was created to demonstrate roughly the type of Issues/Pu
 
 #### Milestones
 
-- [Planning](https://github.com/tooniez/shopfront-e2e-exercise/milestone/1) 
+- [Planning](https://github.com/tooniez/shopfront-e2e-exercise/milestone/1)
 - [Implementation](https://github.com/tooniez/shopfront-e2e-exercise/milestone/2)
 
 
+# Test Scripts
 
-### References
+3 example test scripts were created as part of this exercise
 
-`.idea` directory contains source of exercise
+- login [#10](https://github.com/tooniez/shopfront-e2e-exercise/issues/10)
+- products/cart, recorded user flow with Codegen [#14](https://github.com/tooniez/shopfront-e2e-exercise/issues/14)
 
-`docs` directory contain documentation created for this exercise
 
-- [E2E Tooling Selection Assessment](docs/tool_selection.md)
-- [Shopfront Test Plan Example](docs/test_planning.md)
-
-`examples` directory is used to save commonly used templates and any boilerplate code created by initialising
-
-`lib`directory contain various helpers for tests
-
-`pages` directory contain locators and custom commands for each page under test
-
-- [Playwright - Best Practises](https://playwright.dev/docs/best-practices)
-- [Playwright - Writing Tests](https://playwright.dev/docs/writing-tests)
-
-#### Test Reporting
+# Test Reporting
 
 In this exercise, this repository is configured using 2 Github [Actions](https://github.com/tooniez/shopfront-e2e-exercise/actions). Each action is configured with a Workflow Dispatch option enabling the option to trigger manually.
 
 1. [Build and Tet](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml)
 
 The Build and Test action:
+
 - runs the Shopfront test suite on Push to any branch
 - runs test suite with junit reporter
 
 2. [CI - Shopfront E2E Test Suite](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/ci.yml)
 
 The CI - Shpofront E2e Test Suite action is:
+
 - run the Shopfront test suite on Pull Request against `main` branch
 - runs the test suite with default HTML reporter
 - uploads test report to action for download
-
-
 
 ## Submission Guidelines
 
