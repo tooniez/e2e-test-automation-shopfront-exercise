@@ -2,6 +2,8 @@ name: CI - Shopfront E2E Test Suite
 on:
   pull_request:
     branches: [ main, master ]
+  workflow_dispatch:
+
 jobs:
   shopfront_test_suite:
     timeout-minutes: 60
