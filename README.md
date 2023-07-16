@@ -46,7 +46,7 @@ A Github public project was created to demonstrate roughly the type of Issues/Pu
 
 #### Test Reporting
 
-In this exercise, this repository is configured using 2 Github [Actions](https://github.com/tooniez/shopfront-e2e-exercise/actions) 
+In this exercise, this repository is configured using 2 Github [Actions](https://github.com/tooniez/shopfront-e2e-exercise/actions). Each action is configured with a Workflow Dispatch option enabling the option to trigger manually.
 
 1. [Build and Tet](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml)
 
