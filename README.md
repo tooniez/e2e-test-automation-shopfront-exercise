@@ -1,3 +1,6 @@
+[![Build and Test](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml/badge.svg)](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml)
+[![CI - Shopfront E2E Test Suite](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/ci.yml/badge.svg)](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/ci.yml)
+
 # Technical Assessment: End-to-End Test Automation
 
 ## Description
