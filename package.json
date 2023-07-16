@@ -16,7 +16,7 @@
   },
   "scripts": {
     "debug-test": "npx playwright test --debug",
-    "ci": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=reports/report.xml npx playwright test tests/e2e --reporter=junit",
+    "test:ci": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=reports/report.xml npx playwright test tests/e2e --reporter=junit",
     "test:record": "npx playwright codegen",
     "test:api": "npx playwright test tests/api/ --reporter=list",
     "test:e2e": "npx playwright test tests/e2e/",
