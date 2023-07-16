@@ -14,7 +14,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:api": "npx playwright test tests/api/ --reporter=list",
+    "test:e2e": "npx playwright test tests/e2e/ --reporter=list",
+    "test:all": "npx playwright test tests/",
   },
   "repository": {
     "type": "git",
