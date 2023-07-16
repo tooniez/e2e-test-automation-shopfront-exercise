@@ -23,7 +23,7 @@ This project demonstrates the skills in setting up and executing end-to-end auto
 
 A Github public project was created to demonstrate roughly the type of Issues/Pull Requests to establish the foundations of an Automated E2E Test Framework.
 
-- [testers-e2e-shopfront-project](https://github.com/users/tooniez/projects/13/)
+- [automation-e2e-shopfront-project](https://github.com/users/tooniez/projects/13/)
 
 #### Milestones
 
@@ -46,6 +46,9 @@ A Github public project was created to demonstrate roughly the type of Issues/Pu
 `lib`directory contain various helpers for tests
 
 `pages` directory contain locators and custom commands for each page under test
+
+- [Playwright - Best Practises](https://playwright.dev/docs/best-practices)
+- [Playwright - Writing Tests](https://playwright.dev/docs/writing-tests)
 
 #### Test Reporting
 
