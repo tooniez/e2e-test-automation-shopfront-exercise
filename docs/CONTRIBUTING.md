@@ -1,21 +1,40 @@
-# 🎉 Contributing Guidelines 🎉
+# 🎉 Contribution Guidelines 🎉
 
 Thank you for considering contributing to this exercise! 👏
 
-Please take a moment to review the following guidelines before submitting a pull request: 📝
+Before submitting a pull request, please review the following guidelines: 📝
 
-## 💻 Code of Conduct 🤝
+## 💻 Maintenance
 
-We have adopted a Code of Conduct that we expect project participants to adhere to. 🤝 Please read the full text so that you can understand what actions and behaviors will not be tolerated. 😊
+This guide provides instructions on how to maintain and extend this test framework. 🤝
 
-## 💡 Issues and Pull Requests 🤝
+## 💡 Issues and Pull Requests
 
-Please make sure to create a new issue before submitting a pull request. This will help us to understand the change you are proposing and to discuss the best way to implement it. 🤔
+Please create a new issue before submitting a pull request. This will help us understand your proposed changes and discuss the best implementation approach. 🤔
 
-When creating a pull request, please ensure that your changes: 🛠️
-
-- Follow the style guide 📜
+When creating a pull request, ensure that your changes: 🛠️
+- Adhere to the style guide 📜
 - Include tests (if applicable) 🧪
 - Provide clear and concise commit messages 💬
 - Do not break the existing functionality of the project ❌
 - Add appropriate documentation (if applicable) 📚
+
+## 🧪 Test Script Naming Convention
+
+Some initial points to note for maintaining test framework:
+
+- Please use abbreviated test case names as `{{feature}} - {{functionality}}`
+- Structure tests using `test.describe` blocks whenever possible
+- Keep test scripts isolated to avoid flakiness and limit inheritance to a maximum of 1
+
+## 📜 Project Structure
+
+- The `lib` directory contains various helpers for tests
+- The `pages` directory contains locators and custom commands for each page under test
+- The `tests` directory contains subfolders for api and e2e tests
+
+## 📚 References
+
+- [Playwright - Best Practices](https://playwright.dev/docs/best-practices/)
+- [Playwright - Writing Tests](https://playwright.dev/docs/writing-tests/)
+
