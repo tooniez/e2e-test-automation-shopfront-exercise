@@ -1,4 +1,4 @@
-name: Shopfront E2E Test Suite
+name: CI - Shopfront E2E Test Suite
 on:
   push:
     branches: [ main, master ]
