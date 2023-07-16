@@ -11,6 +11,11 @@ export class LoginPage {
 
   constructor(page: Page) {
     this.page = page;
+
+    // Set up the Locators based on the provided selectors
+    this.Username = page.locator('[data-test="username"]');
+    this.Password = page.locator('[data-test="password"]');
+    this.LogonButton = page.locator('[data-test="login-button"]');
   }
   }
 }
