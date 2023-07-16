@@ -1,11 +1,11 @@
-name: Playwright Tests
+name: Shopfront E2E Test Suite
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
 jobs:
-  test:
+  shopfront_test_suite:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
