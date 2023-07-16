@@ -16,11 +16,15 @@ This project demonstrates the skills in setting up and executing end-to-end auto
 - [ ] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed.
 - [ ] **Maintenance**: Write a brief explanation of how you would maintain these tests as the application grows and evolves.
 
+### References
 
 ## References
 
 - [E2E Tooling Selection Assessment](docs/tool_selection.md)
 - [Shopfront Test Plan Example](docs/test_planning.md)
+
+`examples` directory is used to save commonly used templates and any boilerplate code created by initialising
+
 
 ## Submission Guidelines
 
