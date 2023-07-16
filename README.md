@@ -1,6 +1,3 @@
-[![Build and Test](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml/badge.svg)](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml)
-[![CI - Shopfront E2E Test Suite](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/ci.yml/badge.svg)](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/ci.yml)
-
 # Technical Assessment: End-to-End Test Automation
 
 ## Description
@@ -9,11 +6,11 @@ This project demonstrates my ability in setting up and executing end-to-end auto
 
 ### Tasks
 
-- [x] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices. [#3](https://github.com/tooniez/shopfront-e2e-exercise/issues/3)
-- [x] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others. [#2](https://github.com/tooniez/shopfront-e2e-exercise/issues/2)
+- [x] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices. [#3](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/issues/3)
+- [x] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others. [#2](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/issues/2)
 - [x] **Automated Test Creation**: Write automated test scripts for at least two scenarios. 
-- [x] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed. [#11](https://github.com/tooniez/shopfront-e2e-exercise/issues/11)
-- [x] **Maintenance**: Write a brief explanation of how you would maintain these tests as the application grows and evolves. [12](https://github.com/tooniez/shopfront-e2e-exercise/issues/12)
+- [x] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed. [#11](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/issues/11)
+- [x] **Maintenance**: Write a brief explanation of how you would maintain these tests as the application grows and evolves. [12](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/issues/12)
 
 ## Project
 
@@ -23,32 +20,30 @@ A Github public project was created to demonstrate roughly the type of Issues/Pu
 
 #### Milestones
 
-- [Planning](https://github.com/tooniez/shopfront-e2e-exercise/milestone/1)
-- [Implementation](https://github.com/tooniez/shopfront-e2e-exercise/milestone/2)
+- [Planning](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/milestone/1)
+- [Implementation](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/milestone/2)
+- [Backlog](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/milestone/3)
 
 
 # Test Scripts
 
 3 example test scripts were created as part of this exercise
 
-- login [#10](https://github.com/tooniez/shopfront-e2e-exercise/issues/10)
-- products/cart, recorded user flow with Codegen [#14](https://github.com/tooniez/shopfront-e2e-exercise/issues/14)
+- login [#10](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/issues/10)
+- products/cart, recorded user flow with Codegen [#14](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/issues/14)
 
 
 # Test Reporting
 
-In this exercise, this repository is configured using 2 Github [Actions](https://github.com/tooniez/shopfront-e2e-exercise/actions). Each action is configured with a Workflow Dispatch option enabling the option to trigger manually.
+In this exercise, this repository is configured using 2 Github [Actions](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/actions). Each action is configured with a Workflow Dispatch option enabling the option to trigger manually.
 
-1. [Build and Tet](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/build.yml)
-
-The Build and Test action:
+1. [![Build and Test](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/actions/workflows/build.yml/badge.svg)](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/actions/workflows/build.yml)
 
 - runs the Shopfront test suite on Push to any branch
 - runs test suite with junit reporter
+- posts test results as comment in Pull Request
 
-2. [CI - Shopfront E2E Test Suite](https://github.com/tooniez/shopfront-e2e-exercise/actions/workflows/ci.yml)
-
-The CI - Shpofront E2e Test Suite action is:
+2. [![CI - Shopfront E2E Test Suite](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/actions/workflows/ci.yml/badge.svg)](https://github.com/tooniez/e2e-test-automation-shopfront-exercise/actions/workflows/ci.yml)
 
 - run the Shopfront test suite on Pull Request against `main` branch
 - runs the test suite with default HTML reporter
