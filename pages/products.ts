@@ -22,7 +22,7 @@ export class Products {
 
   // Custom commands for products page
   async addItemtoCart() {
-    await this.CartItem.first().click();
+    await this.AddToCartButton.first().click();
   }
 
   async verifyItemAdded() {
@@ -39,5 +39,13 @@ export class Products {
 
   async verifyCart() {
     await expect(this.CartItem).toBeVisible();
+  }
+
+  async verifyCartEmpty() {
+    await expect(this.CartItem).toBeHidden();
+  }
+
+  async verifyCartCount() {
+    await expect(this.CartItem).toHaveText(`1`);
   }
 }
