@@ -4,11 +4,11 @@
 
 This project demonstrates the skills in setting up and executing end-to-end automated tests for an online shopping web application.
 
-## Application under Test
+### Application under Test
 
 [https://www.saucedemo.com/](https://www.saucedemo.com/)
 
-## Tasks
+### Tasks
 
 - [x] **Test Plan**: Write a brief test plan outlining important end-to-end test scenarios for the application. Explain the reasons for your choices.
 - [x] **Test Automation Framework**: Choose a test automation framework suitable for this application. Explain why you have chosen it over others.
@@ -16,11 +16,34 @@ This project demonstrates the skills in setting up and executing end-to-end auto
 - [ ] **Test Reporting**: After executing the tests, generate a report indicating whether each test has passed or failed.
 - [ ] **Maintenance**: Write a brief explanation of how you would maintain these tests as the application grows and evolves.
 
+## Project
 
-## References
+A Github public project was created to demonstrate roughly the type of Issues/Pull Requests to establish the foundations of an Automated E2E Test Framework.
+
+- [testers-e2e-shopfront-project](https://github.com/users/tooniez/projects/13/)
+
+#### Milestones
+
+- [Planning](https://github.com/tooniez/shopfront-e2e-exercise/milestone/1) 
+- [Implementation](https://github.com/tooniez/shopfront-e2e-exercise/milestone/2)
+
+
+
+### References
+
+`.idea` directory contains source of exercise
+
+`docs` directory contain documentation created for this exercise
 
 - [E2E Tooling Selection Assessment](docs/tool_selection.md)
 - [Shopfront Test Plan Example](docs/test_planning.md)
+
+`examples` directory is used to save commonly used templates and any boilerplate code created by initialising
+
+`lib`directory contain various helpers for tests
+
+`pages` directory contain locators and custom commands for each page under test
+
 
 ## Submission Guidelines
 
